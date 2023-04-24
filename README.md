@@ -38,7 +38,7 @@ The images have already been cropped for each option. One set of images are squa
 
 Below is the content you are required to include on your home page (index.html). *Note:* This is not an all-inclusive list of all the HTML tags you will need. You will need to add classes, ids, sections, etc. in order to code and style this content semantically. **No divs except for those used exclusively for styling, like the grid container in module 6. It is not acceptable to use a div because you don't know how else to make an inline element into a block element or because you aren't sure which semantic container to use. If you're stuck, reach out!**
 
-**Header:**<br />
+***Header:***<br />
 **h1:** Wok Asian Cuisine
 
 ***Navigation:***<br />

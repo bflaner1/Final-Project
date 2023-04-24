@@ -192,3 +192,37 @@ Your pages should meet the following minimum style requirements:
 - [Background patterns](https://www.toptal.com/designers/subtlepatterns/)
 - [Color Pickers](https://color.adobe.com/create/color-wheel)
 - [GIT Coding Club Resources Page](https://gitcoding.club/resources/)
+
+---
+
+### Final Project Rubric
+| Criteria | Pts |
+| -------- | --- |
+| General: Used the text and images provided for both the Home and Contact pages. (No partial points) | 5 pts |
+| General: Chooses 1 wireframe option for the Home page and uses the text and images provided (no partial points) | 5 pts |
+| General: Hand drawn wireframe for the Contact page (only hand drawn is accepted) | 5 pts |
+| HTML: Code is semantic. Appropriate tags are used | 10 pts |
+| HTML: Header, nav, and footer placement is consistent on both pages. (no partial points) | 6 pts |
+| HTML: div id=wrapper used on both pages (no partial points) | 4 pts |
+| HTML: h1 links to the index.html on both pages (no partial points) | 5 pts |
+| HTML: Nav is coded as an unordered list, nav links are appropriate - index.html, menu.html, order.html, contact.html, and navigation works as expected. | 4 pts |
+| HTML: One stylesheet is used and appropriately linked. (no partial points) | 4 pts |
+| HTML: Code is properly indented | 5 pts |
+| HTML: Divs are used appropriately, if used (no partial points) | 5 pts |
+| HTML: Contact page form includes a post method and uses correct action (no partial) | 5 pts |
+| HTML: Contact page form includes (1 pt ea. -1 pt for each extra form element that is not part of the provided content.)<br />Name,<br />Address,<br />City,<br />State,<br />Zip,<br />Phone,<br />Email,<br />Preferred Method of Contact,<br />Comments,<br />Reset button,<br />Submit button | 10 pts |
+| HTML: Name, phone, and email are marked as required and a visual cue is present on the form. (no partial) | 3 pts |
+| CSS: Site is 1400px wide. (no partial) | 3 pts |
+| CSS: Site is centered in the viewport window. (no partial) | 3 pts |
+| CSS: Fonts are styled with 3 font options. (no partial) | 3 pts |
+| CSS: Visual cues for links, including navigation active page and hover. | 5 pts |
+| CSS: Site looks professional | 10 pts |
+| CSS: Consistent styling from page to page and no unused CSS styles. (no partial) | 5 pts |
+| Testing: HTML pages contain no validation errors (5 pts ea) | 10 pts |
+| Testing: CSS contains no validation errors (no partial) | 5 pts |
+| Testing: Screenshot of one page in 2 browsers submitted (no partial) | 5 pts |
+| Testing: Notation of differences noted, if any. (no partial) | 5 pts |
+| HTML: Name included in an author tag on both pages (no partial) | 5 pts |
+| HTML: Favicon included in code on both pages and displays as expected. (no partial) | 5 pts |
+| HTML: Appropriate page titles used in head on both pages | 5 pts |
+| HTML: Descriptive meta description tag included in head on both pages and is descriptive of the site and the page it is describing. | 5 pts |

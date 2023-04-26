@@ -125,8 +125,8 @@ li {
 
 #hero {
     background-color: #FDF2E3;
-    border: 1px solid #E2E6ED;
-    /* border-radius: 8px; */
+    border-top: 1px solid #E2E6ED;
+    border-bottom: 1px solid #69260120;
     overflow: hidden;
 }
 
@@ -154,7 +154,7 @@ li {
 }
 
 #cater {
-    padding: 75px;
+    padding: 75px 10px;
 }
 
 @media (min-width: 40em) {
@@ -211,12 +211,14 @@ li {
     }
 }
 
-footer,
-.brand-name a {
+footer {
     background-color: #17373A;
     padding: 50px;
     line-height: 2;
     font-weight: 500;
+}
+
+.brand-name a {
     text-decoration: none;
     color: #E2E6ED;
 }

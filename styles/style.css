@@ -42,6 +42,7 @@ h1 a {
 h2,
 h3 {
     font-family: 'Forum', cursive;
+    color: #692601;
 }
 
 h2 {
@@ -138,6 +139,7 @@ li {
 .header-img,
 .info-img {
     width: 100%;
+    border-bottom: 1px solid #69260120;
 }
 
 .hero-heading {

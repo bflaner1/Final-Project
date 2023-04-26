@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+::selection {
+    background-color: #692601;
+    color: #FDF2E3;
+}
+
 body {
     background: linear-gradient(
         to right,

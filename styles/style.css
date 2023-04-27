@@ -164,8 +164,13 @@ li {
     padding: 75px 10px;
 }
 
+#contact-grid {
+    border-top: 1px solid #dcdde4;
+}
+
 @media (min-width: 40em) {
-    #info-section {
+    #info-section,
+    #contact-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
@@ -177,6 +182,25 @@ li {
     overflow: hidden;
     border: 1px solid #E2E6ED;
     border-radius: 8px;
+}
+
+.contact-grid-info-section,
+.contact-grid-form-section {
+    padding: 30px;
+    text-align: left;
+}
+
+#contact {
+    border-right: 2px solid #dcdde4;
+}
+
+#contact h2,
+#contact p {
+    padding: 10px 0;
+}
+
+#contact img {
+    width: 100%;
 }
 
 .local-parent,
@@ -217,6 +241,118 @@ li {
         margin: 0 auto 30px;
     }
 }
+
+form {
+    width: 100%;
+    margin: 0 auto;
+    color: #17373A;
+}
+
+input,
+label,
+select,
+textarea {
+    display: block;
+    width: 100%;
+}
+
+label,
+legend {
+    margin: 0 0 4px 16px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    padding: 10px;
+    margin-bottom: 24px;
+    border-radius: 0;
+    border: 1px inset black;
+}
+
+fieldset {
+    margin-bottom: 24px;
+    padding-bottom: 14px;
+    border-radius: 0;
+    border: 1px inset black;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+fieldset label {
+    margin-left: 0;
+}
+
+input[type=submit] {
+    position: relative;
+    background: #692601;
+    border: 1px solid #bdad96;
+    padding: 20px;
+    color: #FDF2E3;
+}
+
+input[type=submit]:hover {
+    left: 3px;
+    top: -3px;
+    box-shadow: -3px 3px 0 #46433f;
+}
+
+input[type=submit]:focus {
+    left: -3px;
+    top: 3px;
+    box-shadow: none;
+}
+
+input[type=radio] + label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+input[type=radio] {
+    appearance: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 0;
+    border-radius: 0;
+}
+
+input[type=radio] + label::before {
+    content: "\00a0";
+    font-size: 2.4em;
+    line-height: 0.43;
+    border-radius: 50%;
+    display: inline-block;
+    height: 20px;
+    width: 22px;
+    text-align: center;
+    margin-right: 16px;
+    margin-left: 20px;
+    border: 2px solid white;
+    background: #692601;
+    padding-bottom: 2px;
+}
+
+input[type=radio]:checked + label::before {
+    content: "\2022";
+    color: #FDF2E3;
+    background: #692601;
+}
+
+input[type=radio]:focus {
+    outline: none;
+}
+
+/* input[type=radio]:focus + label::before {
+    box-shadow: 0 0 0 2px #000;
+} */
 
 footer {
     background-color: #17373A;

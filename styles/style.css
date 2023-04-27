@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Forum&family=Inter:wght@400;500;600;700&family=Marcellus&display=swap');
 
+/* GLOBALS */
+
+:root {
+    --deep-brown-red: #692601;
+    --active-req-red: #CC3E46;
+    --bamboo-tan: #FDF2E3;
+    --silver-gray: #E2E6ED;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,8 +16,8 @@
 }
 
 ::selection {
-    background-color: #692601;
-    color: #FDF2E3;
+    background-color: var(--deep-brown-red);
+    color: var(--bamboo-tan);
 }
 
 body {
@@ -25,6 +34,8 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+/* HEADER & HEADINGS */
+
 header,
 main {
     background-color: white;
@@ -35,14 +46,14 @@ h1 a {
     padding: 1.5rem;
     font-size: 2.5rem;
     font-family: 'Marcellus', serif;
-    color: #692601;
+    color: var(--deep-brown-red);
     text-decoration: none;
 }
 
 h2,
 h3 {
     font-family: 'Forum', cursive;
-    color: #692601;
+    color: var(--deep-brown-red);
 }
 
 h2 {
@@ -117,21 +128,24 @@ li {
 }
 
 .active {
-    color: #CC3E46;
+    color: var(--active-req-red);
     text-decoration: underline;
     text-underline-offset: 8px;
 }
 
 .active:hover {
     background-color: white;
-    color: #CC3E46;
+    color: var(--active-req-red);
     text-decoration-style: solid;
     cursor: default;
 }
 
+/* CONTENT */
+
+/* Hero */
 #hero {
-    background-color: #FDF2E3;
-    border-top: 1px solid #E2E6ED;
+    background-color: var(--bamboo-tan);
+    border-top: 1px solid var(--silver-gray);
     border-bottom: 1px solid #69260120;
     overflow: hidden;
 }
@@ -149,7 +163,7 @@ li {
 .hero-link {
     display: inline-block;
     padding-bottom: 30px;
-    color: #692601;
+    color: var(--deep-brown-red);
     text-decoration: underline dashed;
     text-underline-offset: 5px;
     font-weight: bold;
@@ -157,15 +171,17 @@ li {
 
 .hero-link:hover {
     color: #17373A;
-    text-decoration-color: #692601;
+    text-decoration-color: var(--deep-brown-red);
 }
 
+/* Cater */
 #cater {
     padding: 75px 10px;
 }
 
+/* Grids */
 #contact-grid {
-    border-top: 1px solid #dcdde4;
+    border-top: 1px solid var(--silver-gray);
 }
 
 @media (min-width: 40em) {
@@ -177,10 +193,10 @@ li {
 }
 
 .grid-section {
-    background-color: #FDF2E3;
+    background-color: var(--bamboo-tan);
     margin: 10px;
     overflow: hidden;
-    border: 1px solid #E2E6ED;
+    border: 1px solid var(--silver-gray);
     border-radius: 8px;
 }
 
@@ -190,8 +206,9 @@ li {
     text-align: left;
 }
 
+/* Contact */
 #contact {
-    border-right: 2px solid #dcdde4;
+    border-right: 2px solid var(--silver-gray);
 }
 
 #contact h2,
@@ -203,6 +220,7 @@ li {
     width: 100%;
 }
 
+/* Cards */
 .local-parent,
 .chef-parent {
     height: 400px;
@@ -240,6 +258,13 @@ li {
         padding: 0 80px;
         margin: 0 auto 30px;
     }
+}
+
+/* Form */
+#form h3 {
+    padding-top: 10px;
+    padding-left: 0;
+    font-size: 1.7rem;
 }
 
 form {
@@ -291,10 +316,10 @@ fieldset label {
 
 input[type=submit] {
     position: relative;
-    background: #692601;
+    background: var(--deep-brown-red);
     border: 1px solid #bdad96;
     padding: 20px;
-    color: #FDF2E3;
+    color: var(--bamboo-tan);
 }
 
 input[type=submit]:hover {
@@ -336,23 +361,29 @@ input[type=radio] + label::before {
     margin-right: 16px;
     margin-left: 20px;
     border: 2px solid white;
-    background: #692601;
+    background: var(--deep-brown-red);
     padding-bottom: 2px;
 }
 
 input[type=radio]:checked + label::before {
     content: "\2022";
-    color: #FDF2E3;
-    background: #692601;
+    color: var(--bamboo-tan);
+    background: var(--deep-brown-red);
 }
 
 input[type=radio]:focus {
     outline: none;
 }
 
-/* input[type=radio]:focus + label::before {
-    box-shadow: 0 0 0 2px #000;
-} */
+input[type=radio]:focus + label::before {
+    box-shadow: 0 0 0 2px var(--silver-gray);
+}
+
+.req {
+    color: var(--active-req-red);
+}
+
+/* FOOTER */
 
 footer {
     background-color: #17373A;
@@ -363,7 +394,7 @@ footer {
 
 .brand-name a {
     text-decoration: none;
-    color: #E2E6ED;
+    color: var(--silver-gray);
 }
 
 .brand-name a:hover {

@@ -318,7 +318,9 @@ input[type=submit] {
     position: relative;
     background: var(--deep-brown-red);
     border: 1px solid #bdad96;
-    padding: 20px;
+    padding: 15px;
+    font-size: 1.15rem;
+    font-weight: bold;
     color: var(--bamboo-tan);
 }
 
@@ -329,8 +331,30 @@ input[type=submit]:hover {
 }
 
 input[type=submit]:focus {
-    left: -3px;
-    top: 3px;
+    left: 0;
+    top: 0;
+    box-shadow: none;
+}
+
+input[type=reset] {
+    position: relative;
+    background: var(--bamboo-tan);
+    border: 1px solid #17373A;
+    padding: 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #17373A;
+}
+
+input[type=reset]:hover {
+    left: 3px;
+    top: -3px;
+    box-shadow: -3px 3px 0 var(--silver-gray);
+}
+
+input[type=reset]:focus {
+    left: 0;
+    top: 0;
     box-shadow: none;
 }
 
